@@ -250,7 +250,7 @@
                 e.preventDefault();
                 const email = e.target.loginEmail.value;
                 const password = e.target.loginPassword.value;
-                if (email === 'Admin' && password === 'admin69') {
+                if (email === 'admin@gmail.com' && password === 'admin69') {
                     currentUser = { nama: 'Administrator', email: 'Admin' };
                     localStorage.setItem('currentUser', JSON.stringify(currentUser));
                     await showApp();
